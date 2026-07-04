@@ -1,0 +1,30 @@
+# Data — never commit raw Betfair data (licensing) or large CSVs
+data/raw/*.csv
+data/raw/*.parquet
+data/**/*.csv
+!data/raw/.gitkeep
+
+# Generated outputs
+outputs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.python-version
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter
+*.ipynb_checkpoints
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
